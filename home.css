@@ -62,7 +62,7 @@ footer {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    position: absolute;
+    position: fixed;
     transition: 3s ease;
     backdrop-filter: invert(100%);
     top: 0;
@@ -74,7 +74,7 @@ footer {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    position: absolute;
+    position: fixed;
     transition: 1.5s ease;
     background-color: white;
     top: 0;
