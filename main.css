@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Akira';
+    src: url("fonts/Akira.otf");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("fonts/Roboto-Thin.ttf");
+}
+
+.column, .row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.row {
+    flex-direction: row;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+body {
+    /*background-color: #fff2f2;*/
+    padding: 0;
+    margin: 0;
+}
