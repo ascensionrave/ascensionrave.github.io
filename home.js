@@ -40,7 +40,7 @@ function animateMinilight(minilight) {
     minilight.style.height = `${diameter}px`;
     setTimeout(function() {
         animateMinilight(minilight);
-    }, Math.floor(Math.random() * 1500) + 1000);
+    }, Math.floor(Math.random() * 4500) + 1000);
 }
 
 function createMinilight(count) {
@@ -54,5 +54,4 @@ function createMinilight(count) {
     return minilights;
 }
 
-const spotlights = createSpotlights(1);
-const minilights = createMinilight(150);
+const minilights = createMinilight(100);
